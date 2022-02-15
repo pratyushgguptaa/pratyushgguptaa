@@ -37,4 +37,5 @@ jobs:
           python check.py
       - name: set next word
         run:
+          echo GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
           gh secret set CURRENT < secret.txt
