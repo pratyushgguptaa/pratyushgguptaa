@@ -30,12 +30,16 @@ jobs:
         run:
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: print environment variables to check
-        env:
-          NEXT: CERTI
+      - name: store next word in secret.txt
         run:
-          python check.py
+          python update.py
       - name: set next word
         run:
           echo GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
           gh secret set CURRENT < secret.txt
+      - name: check if it worked
+        env:
+          NEXT: CELLO
+        run:
+          python check.py
+      
