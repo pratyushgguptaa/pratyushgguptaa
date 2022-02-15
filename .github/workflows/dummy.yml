@@ -33,7 +33,9 @@ jobs:
           python update.py
       - name: set next word
         run:
-          echo GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+          echo "${{ secrets.GITHUB_TOKEN }}" > .githubtoken
+          gh auth login --web-token < .githubtoken
+          rm .githubtoken
           gh secret set CURRENT < secret.txt
           git add .
           git commit -m "secret updated"
