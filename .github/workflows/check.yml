@@ -32,6 +32,6 @@ jobs:
           echo test, and deploy your project.
       - name: print environment variables to check
         env:
-          NEXT: HELLO
+          NEXT: CELLO
         run:
           python check.py

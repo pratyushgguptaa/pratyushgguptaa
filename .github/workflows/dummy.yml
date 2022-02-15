@@ -39,6 +39,7 @@ jobs:
           git commit -m "secret updated"
       - name: check if it worked
         env:
+          WORD: ${{ secrets.CURRENT }}
           NEXT: CELLO
         run:
           python check.py
