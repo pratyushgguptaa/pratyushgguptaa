@@ -1,9 +1,6 @@
 ### Hi there 👋
 Currently working on my README
-<form method="post" action="https://github.com/">
-<input type="text" id="word" name="word">
-<button>Hello</button>
-</form>
+
 <!-- 
 **pratyushgguptaa/pratyushgguptaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
