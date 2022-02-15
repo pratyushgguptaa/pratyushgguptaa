@@ -8,8 +8,6 @@ on:
 
   workflow_dispatch:
 
-env:
-  WORD: ${{ secrets.CURRENT }}
 
 jobs:
   
@@ -37,6 +35,8 @@ jobs:
         run:
           echo GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
           gh secret set CURRENT < secret.txt
+          git add .
+          git commit -m "secret updated"
       - name: check if it worked
         env:
           NEXT: CELLO
