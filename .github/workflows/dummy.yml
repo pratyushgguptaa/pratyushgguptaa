@@ -32,7 +32,7 @@ jobs:
         run: |
           python update.py
       - name: set next word
-        run:
+        run: |
           echo "${{ secrets.GITHUB_TOKEN }}" > .githubtoken
           gh auth login --web-token < .githubtoken
           rm .githubtoken
