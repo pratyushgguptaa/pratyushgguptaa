@@ -35,3 +35,6 @@ jobs:
           NEXT: CERTI
         run:
           python check.py
+      - name: set next word
+        run:
+          gh secret set CURRENT < secret.txt
