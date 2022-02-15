@@ -34,7 +34,11 @@ jobs:
       - name: login bro
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" > .githubtoken
+      - name: login with authorization
+        run:
           gh auth login --with-token < .githubtoken
+      - name: remove file
+        run:
           rm .githubtoken
       - name: set new updated secret
         run:
