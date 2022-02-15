@@ -34,7 +34,7 @@ jobs:
       - name: set next word
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" > .githubtoken
-          gh auth login --web-token < .githubtoken
+          gh auth login --with-token < .githubtoken
           rm .githubtoken
           gh secret set CURRENT < secret.txt
           git add .
