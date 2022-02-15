@@ -31,5 +31,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: print environment variables to check
+        env:
+          NEXT: CERTI
         run:
           python check.py
