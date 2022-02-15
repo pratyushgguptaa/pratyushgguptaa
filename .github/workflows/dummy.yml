@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  word: ${{ secrets.CURRENT }}
+  WORD: ${{ secrets.CURRENT }}
 
 jobs:
   

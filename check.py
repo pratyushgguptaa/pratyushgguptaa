@@ -1,2 +1,5 @@
 import os
-print(os.environ)
+word = os.environ['WORD']
+
+print(len(word))
+print(word)
