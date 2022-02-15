@@ -37,10 +37,10 @@ jobs:
           gh auth login --with-token < .githubtoken
           rm .githubtoken
       - name: set new updated secret
-      - run:
+        run:
           gh secret set CURRENT < secret.txt
       - name: commit changes
-      - run: |
+        run: |
           git add .
           git commit -m "secret updated"
       - name: check if it worked
