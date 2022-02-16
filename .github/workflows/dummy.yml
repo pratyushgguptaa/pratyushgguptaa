@@ -8,49 +8,17 @@ on:
 
   workflow_dispatch:
 
+env:
+  KEY: ${{ secrets.FERNET_KEY }}
 
 jobs:
   
   my_job:
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
       - name: Run a dummy command
         run: ls
-
-      # Runs a set of commands using the runners shell
-      - name: Run some more commands
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-      - name: store next word in secret.txt
-        run: |
-          python update.py
-      - name: login bro
-        run: |
-          echo "${{ secrets.GITHUB_TOKEN }}" > .githubtoken
-      - name: login with authorization
-        run:
-          gh auth login --with-token < .githubtoken
-      - name: remove file
-        run:
-          rm .githubtoken
-      - name: set new updated secret
-        run:
-          gh secret set CURRENT < secret.txt
-      - name: commit changes
-        run: |
-          git add .
-          git commit -m "secret updated"
-      - name: check if it worked
-        env:
-          WORD: ${{ secrets.CURRENT }}
-          NEXT: CELLO
-        run:
-          python check.py
       
