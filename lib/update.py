@@ -10,19 +10,17 @@ def update_word():
             words.append(line.strip())
     print(len(words))
     next = words[secrets.randbelow(len(words))]
+    next += words[secrets.randbelow(len(words))]
+    next += words[secrets.randbelow(len(words))]
     key = ''
     if 'KEY' in environ:
         key = environ['KEY']
     else:
-        readSecret = open('secret.txt', 'rb')
-        key = readSecret.read()
-        readSecret.close()
+        with open('./data/key.txt', 'r') as f:
+            key = f.read()
     f = Fernet(key)
 
     word = f.encrypt(next.encode())
 
-    fileRead = open('./data/word.txt', 'w')
-    fileRead.write(word.decode())
-    fileRead.close()
-
-    print('New word loaded. And the word is: hehe Tumhe kyun btaun')
+    with open('./data/word.txt', 'wb') as f:
+        f.write(word)

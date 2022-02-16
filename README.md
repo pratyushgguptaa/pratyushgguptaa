@@ -1,17 +1,15 @@
-### Hi there 👋
-Currently working on my README
+# GitHub README WORDLLEEEEEE
 
-<!-- 
-**pratyushgguptaa/pratyushgguptaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is an open wordle game for everyone. Yes we can all play together!!
+Observe the current table and try to guess the next word.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ... -->
-
+<!-- BEGIN BOARD -->
+| W | O | R | D | L | E |
+|---|:-:|:-:|:-:|:-:|:-:|
+| **1** |  |  |  |  |   |   |  
+| **2** | ![text](https://via.placeholder.com/150/538d4e/f?text=A)  |   |   |   |   |
+| **3** |   | ![text](https://via.placeholder.com/150//f?text=+)  |   |   |   |
+| **4** |   |   |   |   |   |
+| **5** |   |   |   |   |   |
+| **6** |   |   |   |   |   |
+<!-- END BOARD -->

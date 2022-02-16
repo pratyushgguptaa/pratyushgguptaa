@@ -8,14 +8,12 @@ def retrieve_word():
     if 'KEY' in environ:
         key = environ['KEY']
     else:
-        readSecret = open('secret.txt', 'rb')
-        key = readSecret.read()
-        readSecret.close()
+        with open('./data/key.txt', 'r') as keyRead:
+            key = keyRead.read()
 
     f = Fernet(key)
 
-    fileRead = open('./data/word.txt', 'rb')
-    word = fileRead.read()
-    fileRead.close()
+    with open('./data/word.txt', 'rb') as fileRead:
+        word = fileRead.read()
 
-    return f.decrypt(word).decode()
+    return f.decrypt(word).decode()[:5].upper()
