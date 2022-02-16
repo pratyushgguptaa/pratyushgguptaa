@@ -12,4 +12,5 @@ Observe the current table and try to guess the next word.
 | **4** |   |   |   |   |   |
 | **5** |   |   |   |   |   |
 | **6** |   |   |   |   |   |
+
 <!-- END BOARD -->

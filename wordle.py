@@ -1,3 +1,6 @@
+import pickle
+
+
 class Wordle:
     green = '538d4e'
     yellow = 'b59f3b'
@@ -28,6 +31,8 @@ class Wordle:
         return 'OK'
 
     def is_over(self, actual_word):
+        if self.guess_count == 0:
+            return False
         if self.guessed_words[-1] == actual_word:
             return True
         elif self.guess_count == self.rows:
@@ -42,3 +47,12 @@ class Wordle:
 
     def get_board(self):
         return self.board
+
+    def save_game(self, path='data/game.wordle'):
+        with open(path, 'wb') as f:
+            pickle.dump(self, f)
+
+    def load_game(self, path='data/game.wordle'):
+        with open(path, 'rb') as f:
+            self = pickle.load(f)
+        return self
