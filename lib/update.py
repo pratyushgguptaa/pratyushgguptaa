@@ -8,7 +8,6 @@ def update_word():
     with open('./data/words.txt', 'r') as f:
         for line in f:
             words.append(line.strip())
-
     print(len(words))
     next = words[secrets.randbelow(len(words))]
     key = ''
@@ -25,3 +24,5 @@ def update_word():
     fileRead = open('./data/word.txt', 'w')
     fileRead.write(word.decode())
     fileRead.close()
+
+    print('New word loaded. And the word is: hehe Tumhe kyun btaun')
