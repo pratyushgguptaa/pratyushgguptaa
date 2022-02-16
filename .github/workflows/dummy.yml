@@ -17,8 +17,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: TODO set environment variables
+        run: |
+          echo ISSUE_NUMBER="${{ github.event.issue.number }}" >> $GITHUB_ENV
+          echo GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+          echo REPOSITORY_OWNER="${{ github.repository_owner }}" >> $GITHUB_ENV
+      
       - uses: actions/checkout@v2
 
       - name: Run a dummy command
         run: ls
       
+      - name: Setup Python
+        uses: actions/setup-python@v2.3.2
+        with:
+          python-version: "3.8"
+          architecture: "x64"
+      
+      - name: Play wordle
+        run: |
+          pip install -r requirements.txt
+          python main.py
