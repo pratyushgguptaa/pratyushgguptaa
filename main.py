@@ -4,6 +4,7 @@ from lib.getEnv import getEnv
 import markdown
 from wordle import Wordle
 from github import Github
+import os
 
 guess_word = "CROOL"
 
@@ -32,10 +33,10 @@ if __name__ == '__main__':
 
     print(retrieve_word())
 
-    repo = Github(getEnv('GITHUB_TOKEN')).get_repo(
-        getEnv('GITHUB_REPOSITORY'))
-    issue = repo.get_issue(number=int(getEnv('ISSUE_NUMBER')))
+    repo = Github(os.environ['GITHUB_TOKEN']).get_repo(
+        os.environ['GITHUB_REPOSITORY'])
+    issue = repo.get_issue(number=int(os.environ['ISSUE_NUMBER']))
     issue_author = '@' + issue.user.login
-    repo_owner = '@' + getEnv('REPOSITORY_OWNER')
+    repo_owner = '@' + os.environ['REPOSITORY_OWNER']
 
     print('calling main.py')
