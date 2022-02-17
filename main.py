@@ -30,10 +30,12 @@ def main(game, actual_word):
 
 if __name__ == '__main__':
 
-    g = Github(getEnv('GITHUB_TOKEN'))
-    for repo in g.get_user().get_repos():
-        print(repo.name)
-        # to see all the available attributes and methods
-        # print(dir(repo))
+    print(retrieve_word())
+
+    repo = Github(getEnv('GITHUB_TOKEN')).get_repo(
+        getEnv('GITHUB_REPOSITORY'))
+    issue = repo.get_issue(number=int(getEnv('ISSUE_NUMBER')))
+    issue_author = '@' + issue.user.login
+    repo_owner = '@' + getEnv('REPOSITORY_OWNER')
 
     print('calling main.py')
