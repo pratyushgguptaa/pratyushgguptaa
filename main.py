@@ -1,17 +1,44 @@
 from lib.retrieve import retrieve_word
 from lib.update import update_word
-from lib.getEnv import getEnv
 import markdown
 from wordle import Wordle
 from github import Github
 import os
+import re
 
 guess_word = "CROOL"
 
 
-def main(game, actual_word):
-    game.guess_word(actual_word, guess_word)
-    game.save_game()
+def main(game, issue):
+    actual_word = retrieve_word()
+    game = Wordle().load_game()
+    if issue.title.upper() == "WORDLE: START NEW GAME":
+        # check if the previous game is over
+        if game.is_over(actual_word) == False:
+            s = '@'+issue.user.login + \
+                ', there is a game in progress. Please make more guesses and finish it first.'
+            issue.create_comment(s)
+            issue.edit(state='closed')
+            return
+        game.start_new()
+        s = '@'+issue.user.login+', the new game has started. Start making your guesses!!'
+        issue.create_comment(s)
+        issue.edit(state='closed')
+
+    elif issue.title.upper().startsWith('WORDLE: GUESS '):
+        pattern = 'WORDLE: GUESS ([A-Z]{'+str(game.letters)+'})'
+        match = re.match(pattern, issue.title.upper())
+        if match is None:
+            s = '@'+issue.user.login+', please enter a valid guess word.'
+            issue.create_comment(s)
+            issue.edit(state='closed')
+            return
+        guessed_word = match.group(1)
+        if game.guess_word(actual_word, guessed_word) != 'OK':
+            s = '@'+issue.user.login+', please enter a valid guess word.'
+            issue.create_comment(s)
+            issue.edit(state='closed')
+            return
 
     with open('README.md', 'r') as file:
         readme = file.read()
@@ -31,20 +58,12 @@ def main(game, actual_word):
 
 if __name__ == '__main__':
 
-    print(retrieve_word())
+    repo = Github(os.environ['GITHUB_TOKEN']).get_repo(
+        os.environ['GITHUB_REPOSITORY'])
+    issue = repo.get_issue(number=int(os.environ['ISSUE_NUMBER']))
 
-    repo = Github(getEnv('GITHUB_TOKEN')).get_repo(
-        getEnv('GITHUB_REPOSITORY'))
-    issue = repo.get_issue(number=int(getEnv('ISSUE_NUMBER')))
-    issue_author = '@' + issue.user.login
-    repo_owner = '@' + getEnv('REPOSITORY_OWNER')
-    # repo = Github(os.environ['GITHUB_TOKEN']).get_repo(
-    #     os.environ['GITHUB_REPOSITORY'])
-    # issue = repo.get_issue(number=int(os.environ['ISSUE_NUMBER']))
-    # issue_author = '@' + issue.user.login
-    # repo_owner = '@' + os.environ['REPOSITORY_OWNER']
+    game = Wordle().load_game()
 
-    print(issue_author)
-    print(repo_owner)
+    x = main(game, issue)
 
-    print('calling main.py')
+    print(x)

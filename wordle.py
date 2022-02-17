@@ -16,6 +16,12 @@ class Wordle:
         self.letters = letters
         self.guessed_words = []
 
+    def start_new(self):
+        self.guess_count = 0
+        self.guessed_words = []
+        self.board = [[{'color': self.blank, 'letter': '+'}
+                       for _ in range(self.letters)] for _ in range(self.rows)]
+
     def guess_word(self, actual_word, guessed_word):
         if guessed_word in self.guessed_words:
             return 'Already guessed'
