@@ -1,15 +1,9 @@
-from os import environ
 from cryptography.fernet import Fernet
+from lib.getEnv import getEnv
 
 
 def retrieve_word():
-    key = ''
-
-    if 'KEY' in environ:
-        key = environ['KEY']
-    else:
-        with open('./data/key.txt', 'r') as keyRead:
-            key = keyRead.read()
+    key = getEnv('KEY')
 
     f = Fernet(key)
 

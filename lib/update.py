@@ -1,6 +1,6 @@
-from os import environ
 import secrets
 from cryptography.fernet import Fernet
+from lib.getEnv import getEnv
 
 
 def update_word():
@@ -12,12 +12,7 @@ def update_word():
     next = words[secrets.randbelow(len(words))]
     next += words[secrets.randbelow(len(words))]
     next += words[secrets.randbelow(len(words))]
-    key = ''
-    if 'KEY' in environ:
-        key = environ['KEY']
-    else:
-        with open('./data/key.txt', 'r') as f:
-            key = f.read()
+    key = getEnv('KEY')
     f = Fernet(key)
 
     word = f.encrypt(next.encode())

@@ -1,4 +1,5 @@
 import pickle
+import inspect
 
 
 class Wordle:
@@ -48,11 +49,13 @@ class Wordle:
     def get_board(self):
         return self.board
 
-    def save_game(self, path='data/game.wordle'):
+    def save_game(self, path='data/current.wordle'):
         with open(path, 'wb') as f:
             pickle.dump(self, f)
 
-    def load_game(self, path='data/game.wordle'):
+    def load_game(self, path='data/current.wordle'):
         with open(path, 'rb') as f:
-            self = pickle.load(f)
-        return self
+            loaded = pickle.load(f)
+        if isinstance(loaded, Wordle):
+            return loaded
+        return Wordle()
