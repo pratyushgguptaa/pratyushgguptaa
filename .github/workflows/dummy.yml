@@ -8,7 +8,6 @@ on:
   workflow_dispatch:
 
 
-
 jobs:
   
   my_job:
@@ -35,7 +34,7 @@ jobs:
         env:
           KEY: ${{ secrets.FERNET_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUMBER: ${{ github.event.issue_number }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
           REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: |
           pip -q install -r requirements.txt
