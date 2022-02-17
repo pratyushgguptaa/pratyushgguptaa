@@ -53,7 +53,17 @@ def main(issue):
         issue.edit(labels=['Invalid'])
         return
 
+    commentAndClose(
+        issue, 'nice guess! Your guess has been added to the board.\nIt will be reflected on the page shortly 🙌')
     game.save_game()
+
+    if game.is_over(actual_word) == True:
+        if game.is_over(actual_word) == 'WIN':
+            issue.add_to_labels('🏆 WINNING GUESS!!')
+        else:
+            issue.add_to_labels('💩 LOSING GUESS!!')
+
+        issue.comment('Thanks everyone for finishing the WORDLE 🥳')
 
     with open('README.md', 'r') as file:
         readme = file.read()

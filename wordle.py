@@ -51,6 +51,13 @@ class Wordle:
         elif self.guess_count == self.rows:
             return True
         return False
+    
+    def result(self, actual_word):
+        if self.guessed_words[-1] == actual_word:
+            return 'WIN'
+        elif self.guess_count == self.rows:
+            return 'LOSE'
+        return ''
 
     def get_guessed_words(self):
         return self.guessed_words
