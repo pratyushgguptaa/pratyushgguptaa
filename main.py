@@ -27,12 +27,12 @@ def main(issue):
         commentAndClose(
             issue, 'the new game has started. Start making your guesses!!')
 
-    elif issue.title.upper().startswith('WORDLE: GUESS '):
+    elif issue.title.upper().startswith('WORDLE: '):
         if game.is_over(actual_word) == True:
             commentAndClose(
                 issue, 'the game is over. Start a new game to continue.')
             return
-        pattern = 'WORDLE: GUESS ([A-Z]{'+str(game.letters)+'})'
+        pattern = 'WORDLE: ([A-Z]{'+str(game.letters)+'})'
         match = re.match(pattern, issue.title.upper())
         if match is None:
             commentAndClose(issue, 'please enter a valid guess word.')
