@@ -63,7 +63,8 @@ def main(issue):
         else:
             issue.add_to_labels('💩 LOSING GUESS!!')
 
-        issue.create_comment('Thanks everyone for finishing the WORDLE 🥳')
+        issue.create_comment('The word was '+actual_word +
+                             '.\nThanks everyone for finishing the WORDLE 🥳')
 
     with open('README.md', 'r') as file:
         readme = file.read()
