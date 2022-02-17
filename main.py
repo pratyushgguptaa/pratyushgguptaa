@@ -58,7 +58,7 @@ def main(issue):
     game.save_game()
 
     if game.is_over(actual_word) == True:
-        if game.result() == 'WIN':
+        if game.result(actual_word) == 'WIN':
             issue.add_to_labels('🏆 WINNING GUESS!!')
         else:
             issue.add_to_labels('💩 LOSING GUESS!!')
