@@ -62,7 +62,7 @@ def main(issue):
             issue.add_to_labels('🏆 WINNING GUESS!!')
         else:
             issue.add_to_labels('💩 LOSING GUESS!!')
-
+        update_word()
         issue.create_comment('The word was '+actual_word +
                              '.\nThanks everyone for finishing the WORDLE 🥳')
 
