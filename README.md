@@ -1,8 +1,9 @@
 # GitHub README WORDLLEEEEEE
 
 This is an open wordle game for everyone. Yes we can all play together!!
-Observe the current table and try to guess the next word.
-Make more guesses: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22Guess+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+GUESS+)
+Observe the current table and try to guess the next word.<br>
+
+TO GUESS NEW WORD: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22Guess+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+GUESS+)
 <br>
 After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?title=WORDLE%3A+START+NEW+GAME&body=Dont+change+the+title.+If+the+game+is+over+new+game+will+be+loaded)
 <br>
