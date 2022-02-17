@@ -36,11 +36,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           REPOSITORY_OWNER: ${{ github.repository_owner }}
-          ISSUE_TITLE: ${{ github.event.issue.title }}
         run: |
           pip -q install -r requirements.txt
           python main.py
       - name: commit and push changes baby
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"

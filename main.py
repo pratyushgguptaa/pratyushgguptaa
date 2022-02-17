@@ -40,8 +40,12 @@ def main(issue):
         guessed_word = match.group(1)
         print('New word guessed_word is: '+guessed_word)
         result = game.guess_word(actual_word, guessed_word)
-        if result != 'Not in dictionary':
+        if result == 'Not in dictionary':
             commentAndClose(issue, 'please enter a valid english word.')
+            return
+        elif result == 'Already guessed':
+            commentAndClose(
+                issue, 'the word is already guessed in the current game.')
             return
     else:
         commentAndClose(
