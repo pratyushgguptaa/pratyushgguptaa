@@ -1,12 +1,17 @@
 name: tbd
 
-# Controls when the workflow will run
 on:
   issues:
     types:
       - opened
 
   workflow_dispatch:
+
+env:
+  KEY: ${{ secrets.FERNET_KEY }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  # ISSUE_NUMBER: ${{ github.event.issue_number }}
+  REPOSITORY_OWNER: ${{ github.repository_owner }}
 
 jobs:
   
@@ -15,13 +20,6 @@ jobs:
     # if: startsWith(github.event.issue.title, 'Chess:')
 
     steps:
-      - name: TODO set environment variables
-        env:
-          KEY: ${{ secrets.FERNET_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # ISSUE_NUMBER: ${{ github.event.issue_number }}
-          REPOSITORY_OWNER: ${{ github.repository_owner }}
-      
       - uses: actions/checkout@v2
 
       - name: Run a dummy command
@@ -30,15 +28,14 @@ jobs:
       - name: Check working ENV
         run: |
           echo $REPOSITORY_OWNER
-      
+
       - name: Setup Python
         uses: actions/setup-python@v2.3.2
         with:
           python-version: "3.8"
           architecture: "x64"
-      
+
       - name: Play wordle
         run: |
           pip install -r requirements.txt
           python main.py
-        
