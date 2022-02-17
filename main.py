@@ -30,12 +30,6 @@ def main(game, actual_word):
 
 if __name__ == '__main__':
 
-    # print(retrieve_word())
-    # update_word()
-    # print(retrieve_word())
-    # print(getEnv('KEY'))
-    game = Wordle()
-    game.save_game()
-    actual_word = retrieve_word()
-    main(game, actual_word)
+    g = Github(getEnv('GITHUB_TOKEN'))
+
     print('calling main.py')

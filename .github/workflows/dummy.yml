@@ -8,25 +8,28 @@ on:
 
   workflow_dispatch:
 
-env:
-  KEY: ${{ secrets.FERNET_KEY }}
-
 jobs:
   
   my_job:
     runs-on: ubuntu-latest
+    # if: startsWith(github.event.issue.title, 'Chess:')
 
     steps:
       - name: TODO set environment variables
-        run: |
-          echo ISSUE_NUMBER="${{ github.event.issue.number }}" >> $GITHUB_ENV
-          echo GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
-          echo REPOSITORY_OWNER="${{ github.repository_owner }}" >> $GITHUB_ENV
+        env:
+          KEY: ${{ secrets.FERNET_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # ISSUE_NUMBER: ${{ github.event.issue_number }}
+          REPOSITORY_OWNER: ${{ github.repository_owner }}
       
       - uses: actions/checkout@v2
 
       - name: Run a dummy command
         run: ls
+
+      - name: Check working ENV
+        run: |
+          echo $REPOSITORY_OWNER
       
       - name: Setup Python
         uses: actions/setup-python@v2.3.2
@@ -38,3 +41,4 @@ jobs:
         run: |
           pip install -r requirements.txt
           python main.py
+        
