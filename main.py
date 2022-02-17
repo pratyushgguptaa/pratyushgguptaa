@@ -39,4 +39,7 @@ if __name__ == '__main__':
     issue_author = '@' + issue.user.login
     repo_owner = '@' + os.environ['REPOSITORY_OWNER']
 
+    print(issue_author)
+    print(repo_owner)
+
     print('calling main.py')
