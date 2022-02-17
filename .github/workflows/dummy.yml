@@ -7,11 +7,7 @@ on:
 
   workflow_dispatch:
 
-env:
-  KEY: ${{ secrets.FERNET_KEY }}
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  # ISSUE_NUMBER: ${{ github.event.issue_number }}
-  REPOSITORY_OWNER: ${{ github.repository_owner }}
+
 
 jobs:
   
@@ -36,6 +32,11 @@ jobs:
           architecture: "x64"
 
       - name: Play wordle
+        env:
+          KEY: ${{ secrets.FERNET_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # ISSUE_NUMBER: ${{ github.event.issue_number }}
+          REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: |
-          pip install -r requirements.txt
+          pip -q install -r requirements.txt
           python main.py
