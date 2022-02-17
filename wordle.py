@@ -25,6 +25,12 @@ class Wordle:
     def guess_word(self, actual_word, guessed_word):
         if guessed_word in self.guessed_words:
             return 'Already guessed'
+        words = []
+        with open('data/words.txt', 'r') as f:
+            for line in f:
+                words.append(line.strip())
+        if guessed_word.lower() not in words:
+            return 'Not in dictionary'
         for i in range(self.letters):
             if guessed_word[i] == actual_word[i]:
                 self.board[self.guess_count][i]['color'] = self.green
