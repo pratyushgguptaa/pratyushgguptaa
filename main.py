@@ -27,7 +27,7 @@ def main(issue):
         commentAndClose(
             issue, 'the new game has started. Start making your guesses!!')
 
-    elif issue.title.upper().startsWith('WORDLE: GUESS '):
+    elif issue.title.upper().startswith('WORDLE: GUESS '):
         if game.is_over(actual_word) == True:
             commentAndClose(
                 issue, 'the game is over. Start a new game to continue.')
