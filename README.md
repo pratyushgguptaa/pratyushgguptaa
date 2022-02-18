@@ -31,7 +31,9 @@ Yes, this wordle is open for everyone to play **together**, cause only together 
 <!-- BOARD START --><div align="center">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=D">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=I">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=E">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=U"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br></div>
 <!-- BOARD END -->
 
-<!--  -->
+<!-- DETAILS START -->
+<!-- DETAILS END -->
+
 TO GUESS NEW WORD: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE%3A+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+) 
 
 
@@ -66,8 +68,8 @@ After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa
   </p></details>
 </p></details>
 
-<details>
+<!-- <details>
   <summary>Top 10 players with most guesses</summary><p>
 <!-- BEGIN TOP GUESSES -->
 <!-- END TOP GUESSES -->
-</p></details>
+</p></details> -->

@@ -14,36 +14,54 @@ def commentAndClose(issue, comment):
     issue.edit(state='closed')
 
 
+def replaceText(readme, item, replace):
+    start = '<!-- {} START -->'.format(item)
+    end = '<!-- {} END -->'.format(item)
+    before = readme.split(start)[0]
+    after = readme.split(end)[1]
+
+    readme = before + start + replace + end + after
+    return readme
+
+
 def updateReadme(issue, game, actual_word):
     with open('README.md', 'r') as file:
         readme = file.read()
 
     # update the board
-    boardStart = '<!-- BOARD START -->'
-    boardEnd = '<!-- BOARD END -->'
-    before = readme.split(boardStart)[0]
-    after = readme.split(boardEnd)[1]
+    readme = replaceText(
+        readme, 'BOARD', markdown.boardToMarkdown(game.get_board()))
 
-    readme = before + boardStart + \
-        markdown.boardToMarkdown(game.get_board()) + boardEnd + after
+    # boardStart = '<!-- BOARD START -->'
+    # boardEnd = '<!-- BOARD END -->'
+    # before = readme.split(boardStart)[0]
+    # after = readme.split(boardEnd)[1]
+
+    # readme = before + boardStart + \
+    #     markdown.boardToMarkdown(game.get_board()) + boardEnd + after
 
     # update the stats
-    statsStart = '<!-- STATS START -->'
-    statsEnd = '<!-- STATS END -->'
-    before = readme.split(statsStart)[0]
-    after = readme.split(statsEnd)[1]
+    readme = replaceText(
+        readme, 'STATS', markdown.statsToMarkdown(game.get_stats()))
 
-    readme = before + statsStart + \
-        markdown.statsToMarkdown(game.get_stats()) + statsEnd + after
+    # statsStart = '<!-- STATS START -->'
+    # statsEnd = '<!-- STATS END -->'
+    # before = readme.split(statsStart)[0]
+    # after = readme.split(statsEnd)[1]
+
+    # readme = before + statsStart + \
+    #     markdown.statsToMarkdown(game.get_stats()) + statsEnd + after
 
     # update the guesses
-    guessesStart = '<!-- GUESSES START -->'
-    guessesEnd = '<!-- GUESSES END -->'
-    before = readme.split(guessesStart)[0]
-    after = readme.split(guessesEnd)[1]
+    readme = replaceText(
+        readme, 'GUESSES', markdown.guessesToMarkdown(game.get_stats()))
+    # guessesStart = '<!-- GUESSES START -->'
+    # guessesEnd = '<!-- GUESSES END -->'
+    # before = readme.split(guessesStart)[0]
+    # after = readme.split(guessesEnd)[1]
 
-    readme = before + guessesStart + \
-        markdown.guessesToMarkdown(game.get_stats()) + guessesEnd + after
+    # readme = before + guessesStart + \
+    #     markdown.guessesToMarkdown(game.get_stats()) + guessesEnd + after
 
     with open('README.md', 'w') as file:
         file.write(readme)
