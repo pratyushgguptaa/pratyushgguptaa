@@ -1,4 +1,4 @@
-![Banner](data/banner.png)
+![Banner](data/banner1.png)
 
 <a href="https://github.com/pratyushgguptaa">
   <img align="left" alt="Pratyush's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
