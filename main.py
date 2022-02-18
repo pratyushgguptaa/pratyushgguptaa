@@ -89,6 +89,7 @@ def main(issue):
         else:
             issue.add_to_labels('💩 LOSING GUESS!!')
         update_word()
+        game.update_stats(actual_word)
         issue.create_comment('The word was '+actual_word +
                              '.\nThanks everyone for finishing the WORDLE 🥳')
 
