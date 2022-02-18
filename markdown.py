@@ -53,6 +53,6 @@ def guessesToMarkdown(stats):
         color = 'green' if stats['Last'] == i+1 else 'grey'
         image = "![](data/"+color+".png)"
         guesses_md += image*count
-        guesses_md += str(stats[str(i+1)])
+        guesses_md += " "+str(stats[str(i+1)])
         guesses_md += "\n"
     return guesses_md+"\n"

@@ -36,6 +36,15 @@ def updateReadme(issue, game, actual_word):
     readme = before + statsStart + \
         markdown.statsToMarkdown(game.get_stats()) + statsEnd + after
 
+    # update the guesses
+    guessesStart = '<!-- GUESSES START -->'
+    guessesEnd = '<!-- GUESSES END -->'
+    before = readme.split(guessesStart)[0]
+    after = readme.split(guessesEnd)[1]
+
+    readme = before + guessesStart + \
+        markdown.guessesToMarkdown(game.get_stats()) + guessesEnd + after
+
     with open('README.md', 'w') as file:
         file.write(readme)
 
