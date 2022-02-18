@@ -50,6 +50,7 @@ def main(issue):
                 issue, 'there is a game in progress. Please make more guesses and finish it first.')
             return
         game.start_new()
+        update_word()
         commentAndClose(
             issue, 'the new game has started. Start making your guesses!!')
 
@@ -88,7 +89,6 @@ def main(issue):
             issue.add_to_labels('🏆 WINNING GUESS!!')
         else:
             issue.add_to_labels('💩 LOSING GUESS!!')
-        update_word()
         game.update_stats(actual_word)
         issue.create_comment('The word was '+actual_word +
                              '.\nThanks everyone for finishing the WORDLE 🥳')
