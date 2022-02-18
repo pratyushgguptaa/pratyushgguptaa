@@ -17,13 +17,24 @@ def commentAndClose(issue, comment):
 def updateReadme(issue, game, actual_word):
     with open('README.md', 'r') as file:
         readme = file.read()
+
+    # update the board
     boardStart = '<!-- BOARD START -->'
     boardEnd = '<!-- BOARD END -->'
     before = readme.split(boardStart)[0]
     after = readme.split(boardEnd)[1]
 
-    readme = before + boardStart + \
-        markdown.boardToMarkdown(game.get_board()) + boardEnd + after
+    # readme = before + boardStart + \
+        # markdown + boardEnd + after
+
+    # update the stats
+    statsStart = '<!-- STATS START -->'
+    statsEnd = '<!-- STATS END -->'
+    before = readme.split(statsStart)[0]
+    after = readme.split(statsEnd)[1]
+
+    readme = before + statsStart + \
+        markdown.statsToMarkdown(game.get_stats()) + statsEnd + after
 
     with open('README.md', 'w') as file:
         file.write(readme)

@@ -51,20 +51,9 @@ After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa
 
 <details>
   <summary>Statistics</summary><p>
+<!-- STATS START -->
 
-| <span style="font-size:50px">8</span> |<span style="font-size:50px">100</span> | <span style="font-size:50px">5</span>|<span style="font-size:50px">5</span> |
-|:---:|:---:|:---:|:---:|
-| Played|Win %| Current Streak | Max Streak |
-
-1. 2
-2. 0
-3. 3
-4. 2
-5. 1
-6. 0
-<!-- BEGIN STATISTICS -->
-
-<!-- END STATISTICS -->
+<!-- STATS END -->
 </p></details>
 
 <details>

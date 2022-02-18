@@ -1,4 +1,3 @@
-# import wordle
 from string import Template
 
 
@@ -14,3 +13,34 @@ def boardToMarkdown(board):
         row_md += '<br>'
         board_md += row_md
     return board_md+'</div>\n'
+
+
+def statsToMarkdown(**stats):
+    # not using a generic function
+    # stats_md = "| "
+    # for stat in stats.keys():
+    #     stats_md += str(stats[stat]) + " | "
+    # stats_md += "\n|"
+    # stats_md += ":---:|"*len(stats)
+    # stats_md += "\n| "
+    # for stat in stats.keys():
+    #     stats_md += stat + " | "
+    # return stats_md+"\n"
+
+    # only show some needed values
+    stats_md = "| "
+    for stat in ['Played', 'Win %', 'Current Streak', 'Max Streak']:
+        stats_md += str(stats[stat]) + " | "
+    stats_md += "\n|"
+    stats_md += ":---:|"*4
+    stats_md += "\n| "
+    for stat in ['Played', 'Win %', 'Current Streak', 'Max Streak']:
+        stats_md += stat + " | "
+    return stats_md+"\n"
+
+
+def guessesToMarkdown(stats):
+    maxx = 0
+    for stat in ['1', '2', '3', '4', '5', '6']:
+        maxx = max(maxx, stats[stat])
+    
