@@ -47,6 +47,16 @@ After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa
 |:---:|:---:|:---:|:---:|
 | Played | Win % | Current Streak | Max Streak | 
 <!-- STATS END -->
+
+<!-- GUESSES START -->
+1. ■■ 0
+2. ■■■■■■■■■■■■■■■■ 3
+3. <span style="color: green">■■■■■■■■■</span> 2
+4. ■■■■■■■■■■■■■■■ 3
+5. ■■■ 1
+6. ■■ 1
+<!-- GUESSES END -->
+ 
 </p></details>
 
 <details>
