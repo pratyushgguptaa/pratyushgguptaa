@@ -24,8 +24,8 @@ def updateReadme(issue, game, actual_word):
     before = readme.split(boardStart)[0]
     after = readme.split(boardEnd)[1]
 
-    # readme = before + boardStart + \
-        # markdown + boardEnd + after
+    readme = before + boardStart + \
+        markdown.boardToMarkdown(game.get_board()) + boardEnd + after
 
     # update the stats
     statsStart = '<!-- STATS START -->'
