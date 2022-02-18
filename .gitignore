@@ -39,3 +39,4 @@ celerybeat.pid
 env/
 venv/
 ENV/
+tempCodeRunnerFile.py
