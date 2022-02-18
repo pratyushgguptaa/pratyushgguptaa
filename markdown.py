@@ -40,11 +40,19 @@ def statsToMarkdown(stats):
 
 
 def guessesToMarkdown(stats):
+    N = 20  # for the maximum row
     maxx = 0
     for stat in ['1', '2', '3', '4', '5', '6']:
         maxx = max(maxx, stats[stat])
     guesses_md = "\n"
-    "■"
     for i in range(6):
         guesses_md += str(i+1)+". "
-        guesses_md += "■"
+        count = stats[str(i+1)]*N//maxx
+        if count == 0:
+            count = 1
+        color = 'green' if stats['Last'] == i+1 else 'grey'
+        image = "![](data/"+color+".png)"
+        guesses_md += image*count
+        guesses_md += str(stats[str(i+1)])
+        guesses_md += "\n"
+    return guesses_md+"\n"
