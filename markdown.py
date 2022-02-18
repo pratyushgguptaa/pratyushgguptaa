@@ -4,7 +4,7 @@ from string import Template
 def boardToMarkdown(board):
     template = Template(
         '<img src="https://via.placeholder.com/70/$color/f?text=$text">')
-    board_md = '<div align="center">'
+    board_md = '\n<div align="center">'
     for i, row in enumerate(board):
         row_md = ''
         for cell in row:
