@@ -28,7 +28,7 @@ def statsToMarkdown(stats):
     # return stats_md+"\n"
 
     # only show some needed values
-    stats_md = "| "
+    stats_md = "\n| "
     for stat in ['Played', 'Win %', 'Current Streak', 'Max Streak']:
         stats_md += str(stats[stat]) + " | "
     stats_md += "\n|"

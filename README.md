@@ -40,8 +40,10 @@ After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa
 
 <details>
   <summary>Statistics</summary><p>
-# sdfsdf
-<!-- STATS START -->| 0 | 0 | 0 | 0 | 
+
+
+<!-- STATS START -->
+| 0 | 0 | 0 | 0 | 
 |:---:|:---:|:---:|:---:|
 | Played | Win % | Current Streak | Max Streak | 
 <!-- STATS END -->
