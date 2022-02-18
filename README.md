@@ -28,7 +28,7 @@
 # Welcome to <img src="https://via.placeholder.com/40/3a3a3c/f?text=W">&nbsp;<img src="https://via.placeholder.com/40/538d4e/f?text=O">&nbsp;<img src="https://via.placeholder.com/40/3a3a3c/f?text=R">&nbsp;<img src="https://via.placeholder.com/40/538d4e/f?text=D">&nbsp;<img src="https://via.placeholder.com/40/b59f3b/f?text=L">&nbsp;<img src="https://via.placeholder.com/40/3a3a3c/f?text=E"> for everyone
 Yes, this wordle is open for everyone to play **together**, cause only together we can uncover the hidden letters 😊.
 
-<!-- BOARD START --><div align="center">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br></div>
+<!-- BOARD START --><div align="center">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=D">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=I">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=E">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=U"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br></div>
 <!-- BOARD END -->
 
 <!--  -->
@@ -49,12 +49,13 @@ After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa
 <!-- STATS END -->
 
 <!-- GUESSES START -->
-1. ■■ 0
-2. ■■■■■■■■■■■■■■■■ 3
-3. <span style="color: green">■■■■■■■■■</span> 2
-4. ■■■■■■■■■■■■■■■ 3
-5. ![check](data/green.png)![check](data/green.png)![check](data/green.png) 1
-6. ■■ 1
+1. ![](data/grey.png) 0
+2. ![](data/grey.png) 0
+3. ![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png) 1
+4. ![](data/grey.png) 0
+5. ![](data/grey.png) 0
+6. ![](data/grey.png) 0
+
 <!-- GUESSES END -->
  
 </p></details>
