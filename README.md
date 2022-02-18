@@ -29,7 +29,7 @@
 Yes, this wordle is open for everyone to play **together**, cause only together we can uncover the hidden letters 😊.
 
 <!-- BOARD START -->
-<div align="center">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=D">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=I">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=E">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=U"><br>&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=S">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=P">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=O">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=R">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=T"><br>&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=C">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=R">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=N">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=E"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br></div>
+<div align="center">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=D">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=I">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=E">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=U"><br>&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=S">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=P">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=O">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=R">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=T"><br>&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=C">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=R">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=N">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=E"><br>&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=M">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=A">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=R">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=A">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=E"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br></div>
 <!-- BOARD END -->
 
 <!--  -->
@@ -44,7 +44,7 @@ After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa
 
 
 <!-- STATS START -->
-| 1 | 100 | 1 | 1 | 
+| 2 | 100 | 2 | 2 | 
 |:---:|:---:|:---:|:---:|
 | Played | Win % | Current Streak | Max Streak | 
 <!-- STATS END -->
@@ -57,8 +57,8 @@ After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa
 <!-- GUESSES START -->
 1. ![](data/grey.png) 0
 2. ![](data/grey.png) 0
-3. ![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png) 1
-4. ![](data/grey.png) 0
+3. ![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png) 1
+4. ![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png) 1
 5. ![](data/grey.png) 0
 6. ![](data/grey.png) 0
 
