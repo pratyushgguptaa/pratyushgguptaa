@@ -16,18 +16,6 @@ def boardToMarkdown(board):
 
 
 def statsToMarkdown(stats):
-    # not using a generic function
-    # stats_md = "| "
-    # for stat in stats.keys():
-    #     stats_md += str(stats[stat]) + " | "
-    # stats_md += "\n|"
-    # stats_md += ":---:|"*len(stats)
-    # stats_md += "\n| "
-    # for stat in stats.keys():
-    #     stats_md += stat + " | "
-    # return stats_md+"\n"
-
-    # only show some needed values
     stats_md = "\n| "
     for stat in ['Played', 'Win %', 'Current Streak', 'Max Streak']:
         stats_md += str(stats[stat]) + " | "
@@ -40,7 +28,7 @@ def statsToMarkdown(stats):
 
 
 def guessesToMarkdown(stats):
-    N = 20  # for the maximum row
+    N = 20
     maxx = 0
     for stat in ['1', '2', '3', '4', '5', '6']:
         maxx = max(maxx, stats[stat])

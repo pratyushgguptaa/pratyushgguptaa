@@ -69,8 +69,8 @@ After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa
   </p></details>
 </p></details>
 
-<!-- <details>
+<details>
   <summary>Top 10 players with most guesses</summary><p>
 <!-- BEGIN TOP GUESSES -->
 <!-- END TOP GUESSES -->
-</p></details> -->
+</p></details>
