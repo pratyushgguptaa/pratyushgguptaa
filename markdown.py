@@ -15,7 +15,7 @@ def boardToMarkdown(board):
     return board_md+'</div>\n'
 
 
-def statsToMarkdown(**stats):
+def statsToMarkdown(stats):
     # not using a generic function
     # stats_md = "| "
     # for stat in stats.keys():
@@ -43,4 +43,3 @@ def guessesToMarkdown(stats):
     maxx = 0
     for stat in ['1', '2', '3', '4', '5', '6']:
         maxx = max(maxx, stats[stat])
-    
