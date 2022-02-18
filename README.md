@@ -53,7 +53,7 @@ After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa
 2. ■■■■■■■■■■■■■■■■ 3
 3. <span style="color: green">■■■■■■■■■</span> 2
 4. ■■■■■■■■■■■■■■■ 3
-5. ■■■ 1
+5. ![check](data/green.png)![check](data/green.png)![check](data/green.png) 1
 6. ■■ 1
 <!-- GUESSES END -->
  

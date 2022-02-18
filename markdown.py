@@ -43,3 +43,8 @@ def guessesToMarkdown(stats):
     maxx = 0
     for stat in ['1', '2', '3', '4', '5', '6']:
         maxx = max(maxx, stats[stat])
+    guesses_md = "\n"
+    "■"
+    for i in range(6):
+        guesses_md += str(i+1)+". "
+        guesses_md += "■"
