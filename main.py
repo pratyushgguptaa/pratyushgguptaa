@@ -14,6 +14,21 @@ def commentAndClose(issue, comment):
     issue.edit(state='closed')
 
 
+def updateReadme(issue, game, actual_word):
+    with open('README.md', 'r') as file:
+        readme = file.read()
+    boardStart = '<!-- BOARD START -->'
+    boardEnd = '<!-- BOARD END -->'
+    before = readme.split(boardStart)[0]
+    after = readme.split(boardEnd)[1]
+
+    readme = before + boardStart + \
+        markdown.boardToMarkdown(game.get_board()) + boardEnd + after
+
+    with open('README.md', 'w') as file:
+        file.write(readme)
+
+
 def main(issue):
     actual_word = retrieve_word()
     game = Wordle().load_game()
@@ -66,18 +81,7 @@ def main(issue):
         issue.create_comment('The word was '+actual_word +
                              '.\nThanks everyone for finishing the WORDLE 🥳')
 
-    with open('README.md', 'r') as file:
-        readme = file.read()
-    boardStart = '<!-- BOARD START -->'
-    boardEnd = '<!-- BOARD END -->'
-    before = readme.split(boardStart)[0]
-    after = readme.split(boardEnd)[1]
-
-    readme = before + boardStart + \
-        markdown.boardToMarkdown(game.get_board()) + boardEnd + after
-
-    with open('README.md', 'w') as file:
-        file.write(readme)
+    updateReadme(issue, game, actual_word)
 
 
 if __name__ == '__main__':
