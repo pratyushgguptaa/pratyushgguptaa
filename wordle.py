@@ -91,7 +91,6 @@ class Wordle:
         if win:
             stats['Total Win'] += 1
             stats['Current Streak'] += 1
-            stats['Win %'] = int(stats['Total Win'] / stats['Played'] * 100)
             stats['Last'] = self.guess_count
             stats[str(stats['Last'])] += 1
             if stats['Current Streak'] > stats['Max Streak']:
@@ -99,6 +98,7 @@ class Wordle:
         else:
             stats['Current Streak'] = 0
             stats['Last'] = -1
+        stats['Win %'] = int(stats['Total Win'] / stats['Played'] * 100)
         self.save_stats(stats)
 
     def save_stats(self, stats, path='data/stats.txt'):
