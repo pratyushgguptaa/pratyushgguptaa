@@ -37,13 +37,35 @@ TO GUESS NEW WORD: [Click Here](https://github.com/pratyushgguptaa/pratyushggupt
 
 
 After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?title=WORDLE%3A+START+NEW+GAME&body=Dont+change+the+title.+If+the+game+is+over+new+game+will+be+loaded) to reset the board and start a new game!
-<br>
-<details>
-  <summary>Statistics</summary>
-<!-- BEGIN LAST GUESSES -->
 
-<!-- END LAST GUESSES -->
-</details>
+
+
+
+
+
+
+
+
+
+
+
+<details>
+  <summary>Statistics</summary><p>
+
+| <span style="font-size:50px">8</span> |<span style="font-size:50px">100</span> | <span style="font-size:50px">5</span>|<span style="font-size:50px">5</span> |
+|:---:|:---:|:---:|:---:|
+| Played|Win %| Current Streak | Max Streak |
+
+1. 2
+2. 0
+3. 3
+4. 2
+5. 1
+6. 0
+<!-- BEGIN STATISTICS -->
+
+<!-- END STATISTICS -->
+</p></details>
 
 <details>
   <summary>Top 10 players with most guesses</summary>
