@@ -1,4 +1,4 @@
-![Banner](banner.png)
+![Banner](data/banner.png)
 
 <a href="https://github.com/pratyushgguptaa">
   <img align="left" alt="Pratyush's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
@@ -39,7 +39,7 @@ TO GUESS NEW WORD: [Click Here](https://github.com/pratyushgguptaa/pratyushggupt
 After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?title=WORDLE%3A+START+NEW+GAME&body=Dont+change+the+title.+If+the+game+is+over+new+game+will+be+loaded) to reset the board and start a new game!
 <br>
 <details>
-  <summary>Last 5 guesses</summary>
+  <summary>Statistics</summary>
 <!-- BEGIN LAST GUESSES -->
 
 <!-- END LAST GUESSES -->
@@ -48,6 +48,5 @@ After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa
 <details>
   <summary>Top 10 players with most guesses</summary>
 <!-- BEGIN TOP GUESSES -->
-
 <!-- END TOP GUESSES -->
 </details>
