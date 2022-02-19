@@ -1,6 +1,6 @@
 from lib.retrieve import retrieve_word
 from lib.update import update_word
-import markdown
+from lib.markdown import *
 from wordle import Wordle
 from github import Github
 import os
@@ -30,23 +30,23 @@ def updateReadme(issue, game, actual_word):
 
     # update details about the game
     readme = replaceText(
-        readme, 'DETAILS', markdown.howToMarkdown(game.is_over(actual_word)))
+        readme, 'DETAILS', howToMarkdown(game.is_over(actual_word)))
 
     # update the board
     readme = replaceText(
-        readme, 'BOARD', markdown.boardToMarkdown(game.get_board()))
+        readme, 'BOARD', boardToMarkdown(game.get_board()))
 
     # update the stats
     readme = replaceText(
-        readme, 'STATS', markdown.statsToMarkdown(game.get_stats()))
+        readme, 'STATS', statsToMarkdown(game.get_stats()))
 
     # update the guesses
     readme = replaceText(
-        readme, 'GUESSES', markdown.guessesToMarkdown(game.get_stats()))
+        readme, 'GUESSES', guessesToMarkdown(game.get_stats()))
 
     # update the top 10 players section
     readme = replaceText(
-        readme, 'TOP', markdown.usersToMarkdown(game.get_users()))
+        readme, 'TOP', usersToMarkdown(game.get_users()))
 
     with open('README.md', 'w') as file:
         file.write(readme)
