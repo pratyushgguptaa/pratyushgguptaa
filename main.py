@@ -98,7 +98,7 @@ def main(issue):
     game.save_game()
 
     if game.is_over(actual_word) == True:
-        comment = 'The game is over. The word was: '+actual_word+'.\n'
+        comment = 'The game is over. The word was: `'+actual_word+'`.\n'
         if game.result(actual_word) == 'WIN':
             issue.add_to_labels('🏆 WINNING GUESS!!')
             comment += 'Congratulations! You all won the game 🥳.\nThanks for playing everyone. We gotta maintain the streak right?\n'
