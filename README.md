@@ -80,11 +80,6 @@ Remember, you have to make it all <img width="75" src="data/greenWord.png"> 😉
 <details>
   <summary>The TOP 10 players with most guesses</summary><p>
 
-<!-- TOP BEGIN -->
-|Player | Guesses|
-|:---:|:---:|
-<!-- TOP END -->
-</p></details>
 <!-- TOP START -->
 | Player | Guesses |
 |:---:|:---:|
