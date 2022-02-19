@@ -29,14 +29,12 @@
 Yes, this wordle is open for everyone to play **together**, cause only together we can uncover the hidden letters 😊.
 
 <!-- BOARD START -->
-<div align="center">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=S">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=T">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=O">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=O">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=L"><br>&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=P">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=O">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=I">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=N">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=T"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br></div>
+<div align="center">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=S">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=T">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=O">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=O">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=L"><br>&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=P">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=O">&nbsp;<img src="https://via.placeholder.com/70/b59f3b/f?text=I">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=N">&nbsp;<img src="https://via.placeholder.com/70/3a3a3c/f?text=T"><br>&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=S">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=P">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=O">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=I">&nbsp;<img src="https://via.placeholder.com/70/538d4e/f?text=L"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/70/121213/f?text=+"><br></div>
 <!-- BOARD END -->
 
 ## How to play?
 <!-- DETAILS START -->
-To make your next guess, [Click here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE%3A+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+). You will be directed to the **Creat New Issue** page with a default title ready for you: `WORDLE: `. Just enter the 5 letter word after this. For example, you can guess: `WORDLE: HELLO`. Come back here and refresh after about a minute or two your guess will be added.
-
-<details><summary>Your guess does not show up?</summary> Probably someone else guessed a word just before you. Analyze their results and guess a new word!!</details>
+Looks like its game over. [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?title=WORDLE%3A+START+NEW+GAME&body=Dont+change+the+title.+If+the+game+is+over+new+game+will+be+loaded) to reset the board and start a new game. You will be directed to the **Create New Issue** page with a default title ready for you: `WORDLE: START NEW GAME`. You do not need to change anything just create a new issue. Come back here and refresh after a minute or two a new game will be loaded, with a brand new hidden word 👀.
 <!-- DETAILS END -->
 
 
@@ -54,7 +52,7 @@ Remember, you have to make it all <img width="75" src="data/greenWord.png"> 😉
 
 
 <!-- STATS START -->
-| 5 | 80 | 2 | 2 | 
+| 6 | 83 | 3 | 3 | 
 |:---:|:---:|:---:|:---:|
 | Played | Win % | Current Streak | Max Streak | 
 <!-- STATS END -->
@@ -65,11 +63,11 @@ Remember, you have to make it all <img width="75" src="data/greenWord.png"> 😉
 
 
 <!-- GUESSES START -->
-1. ![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png) 1
+1. ![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png) 1
 2. ![](data/grey.png) 0
-3. ![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png) 1
-4. ![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png) 1
-5. ![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png) 1
+3. ![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png) 2
+4. ![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png) 1
+5. ![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png) 1
 6. ![](data/grey.png) 0
 
 <!-- GUESSES END -->
@@ -83,7 +81,7 @@ Remember, you have to make it all <img width="75" src="data/greenWord.png"> 😉
 <!-- TOP START -->
 | Player | Guesses |
 |:---:|:---:|
-| [@pratyushgguptaa](https://github.com/pratyushgguptaa) | 2 |
+| [@pratyushgguptaa](https://github.com/pratyushgguptaa) | 3 |
 
 <!-- TOP END -->
 </p></details>
