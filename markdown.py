@@ -6,7 +6,7 @@ def usersToMarkdown(users):
     users_md += "|:---:|:---:|\n"
     for user, guesses in sorted(users.items(), key=lambda x: x[1], reverse=True)[:10]:
         users_md += "| ["+user+"](https://github.com/" + \
-            user+") | "+str(guesses)+" |\n"
+            user[1:]+") | "+str(guesses)+" |\n"
     return users_md+"\n"
 
 
