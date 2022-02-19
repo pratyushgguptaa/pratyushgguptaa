@@ -25,7 +25,7 @@ Looks like its game over. [Click Here](https://github.com/pratyushgguptaa/pratyu
 
 def boardToMarkdown(board):
     template = Template(
-        '<img src="https://via.placeholder.com/70/$color/f?text=$text">')
+        '<img src="https://via.placeholder.com/65/$color/f?text=$text">')
     board_md = '\n<div align="center">'
     for i, row in enumerate(board):
         row_md = ''
