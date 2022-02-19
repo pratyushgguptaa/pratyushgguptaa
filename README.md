@@ -33,11 +33,14 @@ Yes, this wordle is open for everyone to play **together**, cause only together 
 <!-- BOARD END -->
 
 ## How to play?
-To make your next guess, [Click here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE%3A+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+). You will be directed to the **Creat New Issue** page with a default title ready for you: `WORDLE: `. Just enter the 5 letter word after this.
-For example, you can guess: `WORDLE: HELLO`. It will take about a minute or two. Remember, you have to make it all <span style="background-color:green; color:white">GREEN</span> 😉.
+To make your next guess, [Click here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE%3A+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+). You will be directed to the **Creat New Issue** page with a default title ready for you: `WORDLE: `. Just enter the 5 letter word after this. For example, you can guess: `WORDLE: HELLO`. Come back here and refresh after about a minute or two your guess will be added.
+<details><summary>Your guess does not show up?</summary>Probably someone else guessed a word before you. Analyze their results and guess a new word!!</details>
+Remember, you have to make it all <span style="background-color:green; color:white">GREEN</span> 😉.
 <!-- DETAILS START -->
 
 <!-- DETAILS END -->
+
+
 
 TO GUESS NEW WORD: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE%3A+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+) 
 
