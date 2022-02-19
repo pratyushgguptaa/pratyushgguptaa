@@ -29,7 +29,8 @@ def updateReadme(issue, game, actual_word):
         readme = file.read()
 
     # update details about the game
-    readme = replaceText(readme, 'DETAILS', game.get_details())
+    readme = replaceText(
+        readme, 'DETAILS', markdown.howToMarkdown(game.is_over(actual_word)))
 
     # update the board
     readme = replaceText(
@@ -42,7 +43,6 @@ def updateReadme(issue, game, actual_word):
     # update the guesses
     readme = replaceText(
         readme, 'GUESSES', markdown.guessesToMarkdown(game.get_stats()))
-    
 
     with open('README.md', 'w') as file:
         file.write(readme)

@@ -33,20 +33,21 @@ Yes, this wordle is open for everyone to play **together**, cause only together 
 <!-- BOARD END -->
 
 ## How to play?
-To make your next guess, [Click here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE%3A+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+). You will be directed to the **Creat New Issue** page with a default title ready for you: `WORDLE: `. Just enter the 5 letter word after this. For example, you can guess: `WORDLE: HELLO`. Come back here and refresh after about a minute or two your guess will be added.
-<details><summary>Your guess does not show up?</summary>Probably someone else guessed a word before you. Analyze their results and guess a new word!!</details>
-Remember, you have to make it all <span style="background-color:green; color:white">GREEN</span> 😉.
+
+
 <!-- DETAILS START -->
 
 <!-- DETAILS END -->
 
 
+## What is this game?
+There is a secret 5-letter word that you need to find. Make guesses and observe which letters are:
+- `Not Present` in the hidden word (colored: <span style="background-color:#3a3a3c;color:white">&nbsp;GREY&nbsp;</span>)
+- `Present` but not in the correct position (colored: <span style="background-color:#b59f3b;color:white">&nbsp;YELLOW&nbsp;</span>)
+- `Present` and in the right position (colored: <span style="background-color:#538d4e;color:white">&nbsp;GREEN&nbsp;</span>)
 
-TO GUESS NEW WORD: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE%3A+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+) 
+Remember, you have to make it all <span style="background-color:#538d4e; color:white">&nbsp;GREEN&nbsp;</span> 😉.
 
-
-
-After game over: [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?title=WORDLE%3A+START+NEW+GAME&body=Dont+change+the+title.+If+the+game+is+over+new+game+will+be+loaded) to reset the board and start a new game!
 
 <details>
   <summary>WORDLE STATISTICS</summary><p>
