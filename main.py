@@ -46,7 +46,7 @@ def updateReadme(issue, game, actual_word):
 
     # update the top 10 players section
     readme = replaceText(
-        readme, 'TOP', markdown.usersToMarkdown(game.users()))
+        readme, 'TOP', markdown.usersToMarkdown(game.get_users()))
 
     with open('README.md', 'w') as file:
         file.write(readme)
