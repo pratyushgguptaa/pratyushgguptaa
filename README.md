@@ -43,9 +43,6 @@ There is a secret 5-letter word that you need to find. Make guesses and observe 
 - `Not Present` in the hidden word (colored: <img width="60" src="data/greyWord.png">)
 - `Present` but not in the correct position (colored: <img width="85" src="data/yellowWord.png">)
 - `Present` and in the right position (colored: <img width="85" src="data/greenWord.png">)
-<!-- - `Not Present` in the hidden word (colored: <span style="background-color:#3a3a3c;color:white">&nbsp;GREY&nbsp;</span>)
-- `Present` but not in the correct position (colored: <span style="background-color:#b59f3b;color:white">&nbsp;YELLOW&nbsp;</span>)
-- `Present` and in the right position (colored: <span style="background-color:#538d4e;color:white">&nbsp;GREEN&nbsp;</span>) -->
 
 Remember, you have to make it all <img width="75" src="data/greenWord.png"> 😉.
 

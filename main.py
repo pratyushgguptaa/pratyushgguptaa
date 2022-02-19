@@ -74,7 +74,7 @@ def main(issue):
             return
         guessed_word = match.group(1)
         print('New word guessed_word is: '+guessed_word)
-        result = game.guess_word(actual_word, guessed_word)
+        result = game.guess_word(actual_word, guessed_word, issue.user.login)
         if result == 'Not in dictionary':
             commentAndClose(issue, 'please enter a valid english word.')
             return
@@ -93,25 +93,24 @@ def main(issue):
     game.save_game()
 
     if game.is_over(actual_word) == True:
+        comment = 'The game is over. The word was: '+actual_word+'.\n'
         if game.result(actual_word) == 'WIN':
             issue.add_to_labels('🏆 WINNING GUESS!!')
+            comment += 'Congratulations! You all won the game 🥳.\nThanks for playing everyone. We gotta maintain the streak right?\n'
         else:
             issue.add_to_labels('💩 LOSING GUESS!!')
+            comment += 'Awww man, we lost the game 🤕.\nThanks for playing everyone. We will get it right next time.\n'
         game.update_stats(actual_word)
-        issue.create_comment('The word was '+actual_word +
-                             '.\nThanks everyone for finishing the WORDLE 🥳')
+        # showing all the users in the currect game
+        comment += 'Players this game: '
+        comment += ", ".join(set(game.get_guessers()))
+        comment += '\n'
+        issue.create_comment(comment)
 
     updateReadme(issue, game, actual_word)
 
 
 if __name__ == '__main__':
-
-    # game = Wordle().load_game()
-
-    # print(game.guess_word(retrieve_word(), guess_word))
-    # print(game.get_board())
-    # print(retrieve_word())
-    # game.save_game()
 
     repo = Github(os.environ['GITHUB_TOKEN']).get_repo(
         os.environ['GITHUB_REPOSITORY'])

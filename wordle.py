@@ -14,6 +14,7 @@ class Wordle:
         self.rows = rows
         self.letters = letters
         self.guessed_words = []
+        self.guessers = []
 
     def start_new(self):
 
@@ -22,7 +23,7 @@ class Wordle:
         self.board = [[{'color': self.blank, 'letter': '+'}
                        for _ in range(self.letters)] for _ in range(self.rows)]
 
-    def guess_word(self, actual_word, guessed_word):
+    def guess_word(self, actual_word, guessed_word, user):
         if guessed_word in self.guessed_words:
             return 'Already guessed'
         words = []
@@ -41,6 +42,7 @@ class Wordle:
             self.board[self.guess_count][i]['letter'] = guessed_word[i]
         self.guess_count += 1
         self.guessed_words.append(guessed_word)
+        self.guessers.append('@'+user)
         return 'OK'
 
     def is_over(self, actual_word):
@@ -64,6 +66,9 @@ class Wordle:
 
     def get_guess_count(self):
         return self.guess_count
+
+    def get_guessers(self):
+        return self.guessers
 
     def get_board(self):
         return self.board
