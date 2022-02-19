@@ -20,6 +20,7 @@ class Wordle:
 
         self.guess_count = 0
         self.guessed_words = []
+        self.guessers = []
         self.board = [[{'color': self.blank, 'letter': '+'}
                        for _ in range(self.letters)] for _ in range(self.rows)]
 
