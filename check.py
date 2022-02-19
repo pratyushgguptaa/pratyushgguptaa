@@ -4,11 +4,6 @@ from lib.retrieve import retrieve_word
 
 game = Wordle()
 users = {}
-
-# game.save_users(users)
-# stats = game.get_stats()
-# print(stats)
-# print(guessesToMarkdown(stats))
-# print(usersToMarkdown(users))
-# print(game.get_users())
-# print(retrieve_word())
+game = game.load_game()
+# print all values of game object
+print(game.__dict__)
