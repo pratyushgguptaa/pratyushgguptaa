@@ -42,7 +42,13 @@ class Wordle:
             self.board[self.guess_count][i]['letter'] = guessed_word[i]
         self.guess_count += 1
         self.guessed_words.append(guessed_word)
-        self.guessers.append('@'+user)
+        self.guessers.append(user)
+        users = self.get_users()
+        if user not in users:
+            users[user] = 1
+        else:
+            users[user] += 1
+        self.save_users(users)
         return 'OK'
 
     def is_over(self, actual_word):
@@ -109,3 +115,12 @@ class Wordle:
     def save_stats(self, stats, path='data/stats.txt'):
         with open(path, 'wb') as f:
             pickle.dump(stats, f)
+
+    def get_users(self, path='data/users.txt'):
+        with open(path, 'rb') as f:
+            users = pickle.load(f)
+        return users
+
+    def save_users(self, users, path='data/users.txt'):
+        with open(path, 'wb') as f:
+            pickle.dump(users, f)

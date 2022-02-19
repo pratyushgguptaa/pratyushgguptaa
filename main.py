@@ -44,6 +44,10 @@ def updateReadme(issue, game, actual_word):
     readme = replaceText(
         readme, 'GUESSES', markdown.guessesToMarkdown(game.get_stats()))
 
+    # update the top 10 players section
+    readme = replaceText(
+        readme, 'TOP', markdown.usersToMarkdown(game.users()))
+
     with open('README.md', 'w') as file:
         file.write(readme)
 
@@ -74,7 +78,8 @@ def main(issue):
             return
         guessed_word = match.group(1)
         print('New word guessed_word is: '+guessed_word)
-        result = game.guess_word(actual_word, guessed_word, issue.user.login)
+        result = game.guess_word(
+            actual_word, guessed_word, '@'+issue.user.login)
         if result == 'Not in dictionary':
             commentAndClose(issue, 'please enter a valid english word.')
             return

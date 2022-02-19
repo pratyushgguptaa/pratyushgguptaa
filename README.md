@@ -78,7 +78,10 @@ Remember, you have to make it all <img width="75" src="data/greenWord.png"> 😉
 </p></details>
 
 <details>
-  <summary>Top 10 players with most guesses</summary><p>
-<!-- BEGIN TOP GUESSES -->
-<!-- END TOP GUESSES -->
+  <summary>The TOP 10 players with most guesses</summary><p>
+
+<!-- TOP BEGIN -->
+|Player | Guesses|
+|:---:|:---:|
+<!-- TOP END -->
 </p></details>
