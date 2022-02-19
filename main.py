@@ -1,12 +1,11 @@
 from lib.retrieve import retrieve_word
 from lib.update import update_word
-from lib.markdown import *
+from lib.markdown import howToMarkdown, boardToMarkdown, statsToMarkdown, guessesToMarkdown, usersToMarkdown
+
 from wordle import Wordle
 from github import Github
 import os
 import re
-
-guess_word = "CROOL"
 
 
 def commentAndClose(issue, comment):
