@@ -34,7 +34,6 @@ Yes, this wordle is open for everyone to play **together**, cause only together 
 
 ## How to play?
 <!-- DETAILS START -->
-
 To make your next guess, [Click here](https: // github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE % 3A+%22+and+click+%22Submit+new+issue % 22.+You+don % 27t+need+to+do+anything+else+ % 3AD & title=WORDLE % 3A+). You will be directed to the ** Creat New Issue ** page with a default title ready for you: `WORDLE: `. Just enter the 5 letter word after this. For example, you can guess: `WORDLE: HELLO`. Come back here and refresh after about a minute or two your guess will be added.
 
 
@@ -44,11 +43,14 @@ To make your next guess, [Click here](https: // github.com/pratyushgguptaa/praty
 
 ## What is this game?
 There is a secret 5-letter word that you need to find. Make guesses and observe which letters are:
-- `Not Present` in the hidden word (colored: <span style="background-color:#3a3a3c;color:white">&nbsp;GREY&nbsp;</span>)
+- `Not Present` in the hidden word (colored: <img width="60" src="data/greyWord.png">)
+- `Present` but not in the correct position (colored: <img width="85" src="data/yellowWord.png">)
+- `Present` and in the right position (colored: <img width="85" src="data/greenWord.png">)
+<!-- - `Not Present` in the hidden word (colored: <span style="background-color:#3a3a3c;color:white">&nbsp;GREY&nbsp;</span>)
 - `Present` but not in the correct position (colored: <span style="background-color:#b59f3b;color:white">&nbsp;YELLOW&nbsp;</span>)
-- `Present` and in the right position (colored: <span style="background-color:#538d4e;color:white">&nbsp;GREEN&nbsp;</span>)
+- `Present` and in the right position (colored: <span style="background-color:#538d4e;color:white">&nbsp;GREEN&nbsp;</span>) -->
 
-Remember, you have to make it all <span style="background-color:#538d4e; color:white">&nbsp;GREEN&nbsp;</span> 😉.
+Remember, you have to make it all <img width="75" src="data/greenWord.png"> 😉.
 
 
 <details>
