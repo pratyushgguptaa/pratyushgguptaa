@@ -2,17 +2,17 @@ from string import Template
 
 
 def howToMarkdown(is_over):
-    if is_over:
+    if is_over == False:
         return """
-        To make your next guess, [Click here](https: // github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE % 3A+%22+and+click+%22Submit+new+issue % 22.+You+don % 27t+need+to+do+anything+else+ % 3AD & title=WORDLE % 3A+). You will be directed to the ** Creat New Issue ** page with a default title ready for you: `WORDLE: `. Just enter the 5 letter word after this. For example, you can guess: `WORDLE: HELLO`. Come back here and refresh after about a minute or two your guess will be added.
+To make your next guess, [Click here](https: // github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE % 3A+%22+and+click+%22Submit+new+issue % 22.+You+don % 27t+need+to+do+anything+else+ % 3AD & title=WORDLE % 3A+). You will be directed to the ** Creat New Issue ** page with a default title ready for you: `WORDLE: `. Just enter the 5 letter word after this. For example, you can guess: `WORDLE: HELLO`. Come back here and refresh after about a minute or two your guess will be added.
 
 
-        <details > <summary > Your guess does not show up?< /summary > Probably someone else guessed a word just before you. Analyze their results and guess a new word!!< /details >
-        """
+<details > <summary > Your guess does not show up?< /summary > Probably someone else guessed a word just before you. Analyze their results and guess a new word!!< /details >
+"""
     else:
         return """
-        Looks like its game over. [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?title=WORDLE%3A+START+NEW+GAME&body=Dont+change+the+title.+If+the+game+is+over+new+game+will+be+loaded) to reset the board and start a new game. You will be directed to the **Create New Issue** page with a default title ready for you: `WORDLE: START NEW GAME`. You do not need to change anything just create a new issue. Come back here and refresh after a minute or two a new game will be loaded, with a brand new hidden word 👀.
-        """
+Looks like its game over. [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?title=WORDLE%3A+START+NEW+GAME&body=Dont+change+the+title.+If+the+game+is+over+new+game+will+be+loaded) to reset the board and start a new game. You will be directed to the **Create New Issue** page with a default title ready for you: `WORDLE: START NEW GAME`. You do not need to change anything just create a new issue. Come back here and refresh after a minute or two a new game will be loaded, with a brand new hidden word 👀.
+"""
 
 
 def boardToMarkdown(board):
