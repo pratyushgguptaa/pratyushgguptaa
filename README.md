@@ -1,4 +1,4 @@
-![Banner](data/banner1.png)
+![Banner](data/img/banner1.png)
 
 <a href="https://github.com/pratyushgguptaa">
   <img align="left" alt="Pratyush's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
@@ -40,11 +40,11 @@ Looks like its game over. [Click Here](https://github.com/pratyushgguptaa/pratyu
 
 ## What is this game?
 There is a secret 5-letter word that you need to find. Make guesses and observe which letters are:
-- `Not Present` in the hidden word (colored: <img width="60" src="data/greyWord.png">)
-- `Present` but not in the correct position (colored: <img width="85" src="data/yellowWord.png">)
-- `Present` and in the right position (colored: <img width="85" src="data/greenWord.png">)
+- `Not Present` in the hidden word (colored: <img width="60" src="data/img/greyWord.png">)
+- `Present` but not in the correct position (colored: <img width="85" src="data/img/yellowWord.png">)
+- `Present` and in the right position (colored: <img width="85" src="data/img/greenWord.png">)
 
-Remember, you have to make it all <img width="75" src="data/greenWord.png"> 😉.
+Remember, you have to make it all <img width="75" src="data/img/greenWord.png"> 😉.
 
 
 <details>
@@ -63,12 +63,12 @@ Remember, you have to make it all <img width="75" src="data/greenWord.png"> 😉
 
 
 <!-- GUESSES START -->
-1. ![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png) 1
-2. ![](data/grey.png) 0
-3. ![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png)![](data/green.png) 3
-4. ![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png) 1
-5. ![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png)![](data/grey.png) 2
-6. ![](data/grey.png) 0
+1. ![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png) 1
+2. ![](data/img/grey.png) 0
+3. ![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png) 3
+4. ![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png) 1
+5. ![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png) 2
+6. ![](data/img/grey.png) 0
 
 <!-- GUESSES END -->
  

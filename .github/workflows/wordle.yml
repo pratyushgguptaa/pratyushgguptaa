@@ -1,4 +1,4 @@
-name: tbd
+name: Play Wordle
 
 on:
   issues:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   
-  my_job:
+  play_wordle:
     runs-on: ubuntu-latest
     if: startsWith(github.event.issue.title, 'Wordle:')
 
