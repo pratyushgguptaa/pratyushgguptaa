@@ -92,3 +92,11 @@ Remember, you have to make it all <img width="75" src="data/img/greenWord.png"> 
 
 <!-- TOP END -->
 </p></details>
+
+<!-- References:
+
+Just want to thanks and appreciate the work and service provided by [Placeholder.com](https://placeholder.com/). It is just amazing. Every wordle character tile is an image from placeholder.com and I would recommend everyone using it.
+
+Also, for references I used the (obviously) [Official Wordle Page](https://www.nytimes.com/games/wordle/index.html), copied the colors and the list of 12947 words.
+For working with github workflows, I referenced [Marcizhu's](https://github.com/marcizhu/marcizhu) and [Timburgan's](https://github.com/timburgan/timburgan) chess readme.
+-->
