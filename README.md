@@ -29,14 +29,12 @@
 Yes, this wordle is open for everyone to play **together**, cause only together we can uncover the hidden letters 😊.
 
 <!-- BOARD START -->
-<div align="center">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=D">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=I">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=U"><br>&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=T">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=R">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=S"><br>&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=P">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=T">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=L"><br>&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=Y">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=N">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=T">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=A"><br>&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+"><br></div>
+<div align="center">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=D">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=I">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=U"><br>&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=T">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=R">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=S"><br>&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=P">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=T">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=A">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=L"><br>&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=Y">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=N">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=T">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=A"><br>&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=M">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=N">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=T">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=A"><br>&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+"><br></div>
 <!-- BOARD END -->
 
 ## How to play?
 <!-- DETAILS START -->
-To make your next guess, [Click here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE%3A+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+). You will be directed to the **Create New Issue** page with a default title ready for you: `WORDLE: `. Just enter the 5 letter word after this. For example, you can guess: `WORDLE: HELLO`. Come back here and refresh after about a minute or two your guess will be added.
-
-<details><summary>Your guess does not show up?</summary> Probably someone else guessed a word just before you. Analyze their results and guess a new word!!</details>
+Looks like its game over. [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?title=WORDLE%3A+START+NEW+GAME&body=Dont+change+the+title.+If+the+game+is+over+new+game+will+be+loaded) to reset the board and start a new game. You will be directed to the **Create New Issue** page with a default title ready for you: `WORDLE: START NEW GAME`. You do not need to change anything just create a new issue. Come back here and refresh after a minute or two a new game will be loaded, with a brand new hidden word 👀.
 <!-- DETAILS END -->
 
 
@@ -54,7 +52,7 @@ Remember, you have to make it all <img width="75" src="data/img/greenWord.png"> 
 
 
 <!-- STATS START -->
-| 18 | 83 | 3 | 8 | 
+| 19 | 84 | 4 | 8 | 
 |:---:|:---:|:---:|:---:|
 | Played | Win % | Current Streak | Max Streak | 
 <!-- STATS END -->
@@ -67,9 +65,9 @@ Remember, you have to make it all <img width="75" src="data/img/greenWord.png"> 
 <!-- GUESSES START -->
 1. ![](data/img/grey.png) 0
 2. ![](data/img/grey.png) 0
-3. ![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png) 4
-4. ![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png) 2
-5. ![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png) 8
+3. ![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png) 4
+4. ![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png)![](data/img/grey.png) 2
+5. ![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png)![](data/img/green.png) 9
 6. ![](data/img/grey.png)![](data/img/grey.png) 1
 
 <!-- GUESSES END -->
@@ -87,7 +85,7 @@ Remember, you have to make it all <img width="75" src="data/img/greenWord.png"> 
 | [@ShubhamGarge](https://github.com/ShubhamGarge) | 10 |
 | [@krishna-chaitanya-kc](https://github.com/krishna-chaitanya-kc) | 10 |
 | [@NikharManchanda](https://github.com/NikharManchanda) | 9 |
-| [@srirajshukla](https://github.com/srirajshukla) | 8 |
+| [@srirajshukla](https://github.com/srirajshukla) | 9 |
 | [@rudra2901](https://github.com/rudra2901) | 4 |
 | [@BhuwanSingh](https://github.com/BhuwanSingh) | 4 |
 | [@vineet4571](https://github.com/vineet4571) | 2 |
