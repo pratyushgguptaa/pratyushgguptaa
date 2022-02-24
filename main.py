@@ -9,11 +9,25 @@ import re
 
 
 def commentAndClose(issue, comment):
+    '''
+    Comment on the issue (also mentioning the user who created the issue) and close it.
+    '''
     issue.create_comment('@'+issue.user.login+', '+comment)
     issue.edit(state='closed')
 
 
 def replaceText(readme, item, replace):
+    '''
+    Replace text in a readme file with new data inside the comment tags
+
+    Args:
+        readme: string of the readme file
+        item: string of the comment tag
+        replace: string of the new data
+
+    Returns:
+        readme: string of the readme file with new data
+    '''
     start = '<!-- {} START -->'.format(item)
     end = '<!-- {} END -->'.format(item)
     before = readme.split(start)[0]
@@ -24,26 +38,31 @@ def replaceText(readme, item, replace):
 
 
 def updateReadme(issue, game, actual_word):
+    '''
+    To read, update and save the readme file
+
+    This method reads the current readme file, replaces text from specified comment tags with new game data.
+    It then saves the new readme file.
+
+    Args:
+        issue: GitHub issue object
+        game: wordle game object
+        actual_word: string of the actual word 
+
+    Returns:
+        None
+    '''
     with open('README.md', 'r') as file:
         readme = file.read()
 
-    # update details about the game
     readme = replaceText(
         readme, 'DETAILS', howToMarkdown(game.is_over(actual_word)))
-
-    # update the board
     readme = replaceText(
         readme, 'BOARD', boardToMarkdown(game.get_board()))
-
-    # update the stats
     readme = replaceText(
         readme, 'STATS', statsToMarkdown(game.get_stats()))
-
-    # update the guesses
     readme = replaceText(
         readme, 'GUESSES', guessesToMarkdown(game.get_stats()))
-
-    # update the top 10 players section
     readme = replaceText(
         readme, 'TOP', usersToMarkdown(game.get_users()))
 
@@ -52,6 +71,17 @@ def updateReadme(issue, game, actual_word):
 
 
 def main(issue):
+    '''
+    Parse the issue title and updates the current game.
+
+
+
+    Args:
+        issue: GitHub issue object
+
+    Returns:
+        None
+    '''
     actual_word = retrieve_word()
     game = Wordle().load_game()
     if issue.title.upper() == "WORDLE: START NEW GAME":
