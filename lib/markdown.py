@@ -2,6 +2,9 @@ from string import Template
 
 
 def usersToMarkdown(users):
+    '''
+    Converts users and thier guesses to a proper markdown table format
+    '''
     users_md = "\n| Player | Guesses |\n"
     users_md += "|:---:|:---:|\n"
     for user, guesses in sorted(users.items(), key=lambda x: x[1], reverse=True)[:10]:
@@ -11,6 +14,9 @@ def usersToMarkdown(users):
 
 
 def howToMarkdown(is_over):
+    '''
+    Defines the string for HOW TO PLAY section of the README file based on the current status of the game.
+    '''
     if is_over == False:
         return """
 To make your next guess, [Click here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE%3A+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+). You will be directed to the **Create New Issue** page with a default title ready for you: `WORDLE: `. Just enter the 5 letter word after this. For example, you can guess: `WORDLE: HELLO`. Come back here and refresh after about a minute or two your guess will be added.
@@ -24,6 +30,9 @@ Looks like its game over. [Click Here](https://github.com/pratyushgguptaa/pratyu
 
 
 def boardToMarkdown(board):
+    '''
+    Converts the board to markdown format
+    '''
     template = Template(
         '<img src="https://via.placeholder.com/65/$color/f?text=$text">')
     board_md = '\n<div align="center">'
@@ -38,6 +47,9 @@ def boardToMarkdown(board):
 
 
 def statsToMarkdown(stats):
+    '''
+    Converts stats to markdown formatted as a table
+    '''
     stats_md = "\n| "
     for stat in ['Played', 'Win %', 'Current Streak', 'Max Streak']:
         stats_md += str(stats[stat]) + " | "
@@ -50,6 +62,9 @@ def statsToMarkdown(stats):
 
 
 def guessesToMarkdown(stats):
+    '''
+    Takes all the guesses data and creates a bar graph with the number of guesses for each game
+    '''
     N = 20
     maxx = 0
     for stat in ['1', '2', '3', '4', '5', '6']:

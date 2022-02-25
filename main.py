@@ -74,7 +74,10 @@ def main(issue):
     '''
     Parse the issue title and updates the current game.
 
-
+    The issue is parsed as follows:
+        - If the title is 'WORDLE: START NEW GAME', a new game is created.
+        - If the title is 'WORDLE: XXXXX', a new guess is made.
+    The changes to the game are made, a comment is added to the issue and closed.
 
     Args:
         issue: GitHub issue object
