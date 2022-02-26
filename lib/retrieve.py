@@ -3,6 +3,9 @@ from lib.getEnv import getEnv
 
 
 def retrieve_word():
+    '''
+    Retrieve hidden word by decrypting using the KEY env variable
+    '''
     key = getEnv('KEY')
 
     f = Fernet(key)
