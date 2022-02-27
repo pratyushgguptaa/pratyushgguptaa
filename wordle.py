@@ -2,12 +2,19 @@ import pickle
 
 
 class Wordle:
+    '''
+    Colors
+
+    '''
     green = '538d4e'
     yellow = 'b59f3b'
     grey = '3a3a3c'
     blank = '121213'
 
     def __init__(self, rows=6, letters=5):
+        '''
+        Initialize a new wordle game. Rows define the number of guesses and letters the word has.
+        '''
         self.guess_count = 0
         self.board = [[{'color': self.blank, 'letter': '+'}
                        for _ in range(letters)] for _ in range(rows)]
@@ -17,7 +24,9 @@ class Wordle:
         self.guessers = []
 
     def start_new(self):
-
+        '''
+        Start a new game. Reset everything to the initial state
+        '''
         self.guess_count = 0
         self.guessed_words = []
         self.guessers = []
@@ -25,6 +34,9 @@ class Wordle:
                        for _ in range(self.letters)] for _ in range(self.rows)]
 
     def guess_word(self, actual_word, guessed_word, user):
+        '''
+        Add a new guessed word to the board.
+        '''
         if guessed_word in self.guessed_words:
             return 'Already guessed'
         words = []
@@ -53,6 +65,9 @@ class Wordle:
         return 'OK'
 
     def is_over(self, actual_word):
+        '''
+        Check if the game is over.
+        '''
         if self.guess_count == 0:
             return False
         if self.guessed_words[-1] == actual_word:
@@ -62,6 +77,10 @@ class Wordle:
         return False
 
     def result(self, actual_word):
+        '''
+        Check the result of the game.
+        TODO: It can break if result is called before the game is over. FIX IT
+        '''
         if self.guessed_words[-1] == actual_word:
             return 'WIN'
         elif self.guess_count == self.rows:
@@ -97,6 +116,9 @@ class Wordle:
         return stats
 
     def update_stats(self, actual_word):
+        '''
+        Update the stats file.
+        '''
         stats = self.get_stats()
         stats['Played'] += 1
         win = self.result(actual_word) == 'WIN'

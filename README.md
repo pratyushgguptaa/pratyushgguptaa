@@ -37,6 +37,10 @@ Yes, this wordle is open for everyone to play **together**, cause only together 
 Looks like its game over. [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?title=WORDLE%3A+START+NEW+GAME&body=Dont+change+the+title.+If+the+game+is+over+new+game+will+be+loaded) to reset the board and start a new game. You will be directed to the **Create New Issue** page with a default title ready for you: `WORDLE: START NEW GAME`. You do not need to change anything just create a new issue. Come back here and refresh after a minute or two a new game will be loaded, with a brand new hidden word 👀.
 <!-- DETAILS END -->
 
+## Recent Guesses :octocat:
+<!-- RECENT START -->
+
+<!-- RECENT END -->
 
 ## What is this game?
 There is a secret 5-letter word that you need to find. Make guesses and observe which letters are:
