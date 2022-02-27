@@ -29,12 +29,14 @@
 Yes, this wordle is open for everyone to play **together**, cause only together we can uncover the hidden letters 😊.
 
 <!-- BOARD START -->
-<div align="center">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=F">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=I">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=N">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=D"><br>&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=S">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=T">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=A">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=R">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=E"><br>&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=G">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=R">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=A">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=N">&nbsp;<img src="https://via.placeholder.com/65/538d4e/f?text=T"><br>&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+"><br></div>
+<div align="center">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=A">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=D">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=I">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=E">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=U"><br>&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=S">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=P">&nbsp;<img src="https://via.placeholder.com/65/b59f3b/f?text=O">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=R">&nbsp;<img src="https://via.placeholder.com/65/3a3a3c/f?text=T"><br>&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+"><br>&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+">&nbsp;<img src="https://via.placeholder.com/65/121213/f?text=+"><br></div>
 <!-- BOARD END -->
 
 ## How to play?
 <!-- DETAILS START -->
-Looks like its game over. [Click Here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?title=WORDLE%3A+START+NEW+GAME&body=Dont+change+the+title.+If+the+game+is+over+new+game+will+be+loaded) to reset the board and start a new game. You will be directed to the **Create New Issue** page with a default title ready for you: `WORDLE: START NEW GAME`. You do not need to change anything just create a new issue. Come back here and refresh after a minute or two a new game will be loaded, with a brand new hidden word 👀.
+To make your next guess, [Click here](https://github.com/pratyushgguptaa/pratyushgguptaa/issues/new?body=Just+enter+a+5+letter+word+in+the+title+after+%22WORDLE%3A+%22+and+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=WORDLE%3A+). You will be directed to the **Create New Issue** page with a default title ready for you: `WORDLE: `. Just enter the 5 letter word after this. For example, you can guess: `WORDLE: HELLO`. Come back here and refresh after about a minute or two your guess will be added.
+
+<details><summary>Your guess does not show up?</summary> Probably someone else guessed a word just before you. Analyze their results and guess a new word!!</details>
 <!-- DETAILS END -->
 
 ## Recent Guesses :octocat:
@@ -85,7 +87,7 @@ Remember, you have to make it all <img width="75" src="data/img/greenWord.png"> 
 <!-- TOP START -->
 | Player | Guesses |
 |:---:|:---:|
-| [@pratyushgguptaa](https://github.com/pratyushgguptaa) | 24 |
+| [@pratyushgguptaa](https://github.com/pratyushgguptaa) | 25 |
 | [@ShubhamGarge](https://github.com/ShubhamGarge) | 10 |
 | [@krishna-chaitanya-kc](https://github.com/krishna-chaitanya-kc) | 10 |
 | [@NikharManchanda](https://github.com/NikharManchanda) | 9 |
@@ -94,6 +96,7 @@ Remember, you have to make it all <img width="75" src="data/img/greenWord.png"> 
 | [@BhuwanSingh](https://github.com/BhuwanSingh) | 4 |
 | [@shaillyb17](https://github.com/shaillyb17) | 3 |
 | [@vineet4571](https://github.com/vineet4571) | 2 |
+| [@Adarsh051020](https://github.com/Adarsh051020) | 1 |
 
 <!-- TOP END -->
 </p></details>
