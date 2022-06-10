@@ -24,7 +24,8 @@
 <a href="https://github.com/pratyushgguptaa">
     <img src="https://komarev.com/ghpvc/?username=pratyushgguptaa" alt="Pratyush's Page Views" />
 </a>
-# Welcome to <img src="https://via.placeholder.com/40/3a3a3c/f?text=W">&nbsp;<img src="https://via.placeholder.com/40/538d4e/f?text=O">&nbsp;<img src="https://via.placeholder.com/40/3a3a3c/f?text=R">&nbsp;<img src="https://via.placeholder.com/40/538d4e/f?text=D">&nbsp;<img src="https://via.placeholder.com/40/b59f3b/f?text=L">&nbsp;<img src="https://via.placeholder.com/40/3a3a3c/f?text=E"> for everyone
+
+# Welcome to <img src="https://via.placeholder.com/40/3a3a3c/f.png?text=W">&nbsp;<img src="https://via.placeholder.com/40/538d4e/f.png?text=O">&nbsp;<img src="https://via.placeholder.com/40/3a3a3c/f.png?text=R">&nbsp;<img src="https://via.placeholder.com/40/538d4e/f.png?text=D">&nbsp;<img src="https://via.placeholder.com/40/b59f3b/f.png?text=L">&nbsp;<img src="https://via.placeholder.com/40/3a3a3c/f.png?text=E"> for everyone
 Yes, this wordle is open for everyone to play **together**, cause only together we can uncover the hidden letters 😊.
 
 <!-- BOARD START -->
