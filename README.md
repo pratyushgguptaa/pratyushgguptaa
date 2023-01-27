@@ -39,7 +39,7 @@ To make your next guess, [Click here](https://github.com/pratyushgguptaa/pratyus
 <details><summary>Your guess does not show up?</summary> Probably someone else guessed a word just before you. Analyze their results and guess a new word!!</details>
 <!-- DETAILS END -->
 
-## Recent Guesses :octocat:
+<!-- ## Recent Guesses :octocat: -->
 <!-- RECENT START -->
 
 <!-- RECENT END -->
