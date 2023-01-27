@@ -34,7 +34,7 @@ def boardToMarkdown(board):
     Converts the board to markdown format
     '''
     template = Template(
-        '<img src="https://via.placeholder.com/65/$color/f.png?text=$text">')
+        '<img src="https://dummyimage.com/65/$color/f.png?text=$text">')
     board_md = '\n<div align="center">'
     for i, row in enumerate(board):
         row_md = ''
